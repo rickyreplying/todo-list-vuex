@@ -11,7 +11,7 @@
           :class="{'bg-warning': todo.status === 'On Progress', 'bg-success text-white': todo.status === 'Completed'}"
           style="max-width: 18rem;">
           <div class="card-header">
-            {{ todo.id }}
+            
             Status : {{ todo.status }}
             <router-link :to="/detail/ + todo.id">
               Go to Detail
